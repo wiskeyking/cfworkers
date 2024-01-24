@@ -14,6 +14,13 @@ let dohURL = 'https://sky.rethinkdns.com/1:-Pf_____9_8A_AMAIgE8kMABVDDmKOHTAKg='
 // v2board api environment variables (optional) deprecated, please use planetscale.com instead
 
 
+let nodeId = ''; // 1
+
+let apiToken = ''; //abcdefghijklmnopqrstuvwxyz123456
+
+let apiHost = ''; // api.v2board.com
+
+
 if (!isValidUUID(userID)) {
     throw new Error('uuid is not valid');
 }
